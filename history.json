@@ -1,0 +1,157 @@
+[
+    {
+        "operation": "converter",
+        "expression": "1000 -- from mm -- to m",
+        "result": 1.0
+    },
+    {
+        "operation": "calculator",
+        "expression": "2+3",
+        "result": 5.0
+    },
+    {
+        "operation": "calculator",
+        "expression": "1+5*2",
+        "result": 11.0
+    },
+    {
+        "operation": "calculator",
+        "expression": "6/4",
+        "result": 1.5
+    },
+    {
+        "operation": "calculator",
+        "expression": "-1+7",
+        "result": 6.0
+    },
+    {
+        "operation": "calculator",
+        "expression": "2+-3",
+        "result": -1.0
+    },
+    {
+        "operation": "calculator",
+        "expression": "2++3",
+        "result": 5.0
+    },
+    {
+        "operation": "calculator",
+        "expression": "2*(3+4)",
+        "result": 14.0
+    },
+    {
+        "operation": "calculator",
+        "expression": "2 + 3                         *4",
+        "result": 14.0
+    },
+    {
+        "operation": "calculator",
+        "expression": "7//2",
+        "result": 3.0
+    },
+    {
+        "operation": "calculator",
+        "expression": "6%5",
+        "result": 1.0
+    },
+    {
+        "operation": "calculator",
+        "expression": "-5//2",
+        "result": -2.0
+    },
+    {
+        "operation": "calculator",
+        "expression": "-7%2",
+        "result": 1.0
+    },
+    {
+        "operation": "calculator",
+        "expression": ".5",
+        "result": 0.5
+    },
+    {
+        "operation": "calculator",
+        "expression": "1.5+2.4",
+        "result": 3.9
+    },
+    {
+        "operation": "calculator",
+        "expression": "1.5*4",
+        "result": 6.0
+    },
+    {
+        "operation": "calculator",
+        "expression": "-0.5+1",
+        "result": 0.5
+    },
+    {
+        "operation": "calculator",
+        "expression": "+.5+1",
+        "result": 1.5
+    },
+    {
+        "operation": "calculator",
+        "expression": "(1.5+2.5)*2+(-2)",
+        "result": 6.0
+    },
+    {
+        "operation": "converter",
+        "expression": "100 -- from mm -- to cm",
+        "result": 10.0
+    },
+    {
+        "operation": "converter",
+        "expression": "1 -- from km -- to mm",
+        "result": 1000000.0
+    },
+    {
+        "operation": "converter",
+        "expression": "1 -- from km -- to km",
+        "result": 1.0
+    },
+    {
+        "operation": "converter",
+        "expression": "1000 -- from g -- to kg",
+        "result": 1.0
+    },
+    {
+        "operation": "converter",
+        "expression": "2 -- from kg -- to g",
+        "result": 2000.0
+    },
+    {
+        "operation": "converter",
+        "expression": "1 -- from kg -- to kg",
+        "result": 1.0
+    },
+    {
+        "operation": "converter",
+        "expression": "32 -- from f -- to c",
+        "result": 0.0
+    },
+    {
+        "operation": "converter",
+        "expression": "273.1499999999999772626324556767940521240234375 -- from k -- to c",
+        "result": 0.0
+    },
+    {
+        "operation": "converter",
+        "expression": "32 -- from c -- to c",
+        "result": 32.0
+    },
+    {
+        "operation": "converter",
+        "expression": "0 -- from c -- to k",
+        "result": 273.15
+    },
+    {
+        "operation": "converter",
+        "expression": "1.5 -- from m -- to cm",
+        "result": 150.0
+    },
+    {
+        "operation": "converter",
+        "expression": "1.5 -- from m -- to cm",
+        "result": 150.0
+    }
+]
