@@ -54,7 +54,7 @@ def test_remainder_division():
 def test_negative_operands_inter_division():
     """Тест на отрицательные операнды для деления нацело"""
     res = calculator("-5//2")
-    assert res == -2
+    assert res == -3
 
 def test_negative_operands_remainder_division():
     """Тест на отрицательные операнды для поиска остатка от деления"""

@@ -2,7 +2,7 @@ from .errors import CalculatorError
 from .config import load_config
 from .tokenization import tokenize
 from .validation import validate
-from decimal import Decimal, ROUND_HALF_UP
+from decimal import Decimal, ROUND_HALF_UP, ROUND_FLOOR
 from .history import add_history
 SIGNS = load_config()["SIGNS"]
 
@@ -81,12 +81,15 @@ def calculator(exp: str) -> float:
                     if b==0:
                         raise CalculatorError("Деление на 0")
                     else:
-                        stek.append(abs(a)%abs(b))
+                        quotient = (a / b).quantize(Decimal("1"), rounding=ROUND_FLOOR)
+                        res = a - b*quotient
+                        stek.append(res)
                 elif i == '//':
                     if b==0:
                         raise CalculatorError("Деление на 0")
                     else:
-                        stek.append(Decimal(int(a//b)))
+                        res = (a/b).quantize(Decimal("1"),rounding=ROUND_FLOOR)
+                        stek.append(res)
                 else:
                     raise CalculatorError("Выражение введено неправильно")
             else:
