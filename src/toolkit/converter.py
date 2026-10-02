@@ -8,7 +8,7 @@ LENGTH  = load_config()["LENGTH"]
 def converter(value: float, from_unit: str, to_unit: str) -> float:
     """Конвертация"""
     if value is None or from_unit is None or to_unit is None:
-        raise ConverterError("Пустое выражение")
+        raise ConverterError("Некорректно введен запрос")
     value = Decimal(value)
     to_unit = to_unit.lower()
     from_unit = from_unit.lower()
